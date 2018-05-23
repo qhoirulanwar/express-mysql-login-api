@@ -1,3 +1,5 @@
+## بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+
 express-mysql-login-api
 
 Simple login and register API using Express and Mysql
@@ -23,7 +25,7 @@ $ npm update
 Configure Mysql connection in dbconnection.js
 
 /* Please Create your Database */
-
+```
 CREATE TABLE `user` (
   `user_id` binary(8) NOT NULL,
   `user_nama` varchar(24) NOT NULL,
@@ -32,3 +34,4 @@ CREATE TABLE `user` (
   `reg_date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1
+```
